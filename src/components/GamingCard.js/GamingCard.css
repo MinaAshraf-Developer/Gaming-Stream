@@ -1,0 +1,58 @@
+li img {
+    width: 100%;
+}
+
+.gaming-library-card {
+    flex: 1 1 100%;
+}
+
+div ul .download {
+    font-size: 20px;
+}
+
+ div ul .gaming-img {
+     margin-bottom: 20px;
+     border-radius: 20px;
+ }
+
+.gaming-library-card ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-primary);
+    padding: calc(var(--padding-primary)/2) 0;
+}
+
+.gaming-library-card h4 {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 992px){
+    .gaming-library-card ul li,
+    .gaming-library-card ul div {
+        flex: 1 25%;
+        font-size: 18px;
+    }
+
+ div ul   .gaming-img { 
+        flex: 1 1 100% !important;
+    }
+        .gaming-img img {
+            width: 100%;
+        }
+                .gaming-library-card h4 {
+                    font-size: 1rem;
+                }
+    
+}
+
+.title {
+    font-weight: bold;
+}
+
+ul li span {
+   color: var(--color-primary);
+   font-weight: bold;
+   font-size: 1.5rem;
+}
